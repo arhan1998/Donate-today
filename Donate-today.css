@@ -1,0 +1,99 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.first-part{
+    width: 100%; height: 90vh;
+    font-size: x-large;
+    color: white;
+    text-align: center;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(153, 80, 80), tomato);
+    padding: 10px 40px;
+    color: aqua;
+    font-size: 700;
+    border-radius: 5px;
+}
+.text{
+    text-align: center;
+    font-size: x-large;
+
+}
+.flexible_container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.boxes{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 15px;
+}    
+.box2{
+    color: tomato;
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px rgb(61, 61, 12);
+}
+.other-amount{
+    padding-bottom: 30px;
+    
+}
+#other-amount-box{
+    padding: 20px 300px ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: tomato;
+}
+#food{
+    background-color:whitesmoke;
+}
+#shelter{
+    background-color:aqua;
+}
+#education{
+    background-color: blanchedalmond;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 100%;
+}
+.form-box{
+    padding: 10px;
+    border-radius: 5px;
+    background: white;
+    box-shadow: none;
+}
+.form-box input{
+    font-size: 18px;
+    color: white;
+    padding: 15px 10px;
+    outline: none;
+    background: white;
+}
+.form-box button{
+    color: white;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: tomato;
+}
+.footer{
+    color: white;
+    width: 100%; height: 30vh;
+    background-color: black;
+}
